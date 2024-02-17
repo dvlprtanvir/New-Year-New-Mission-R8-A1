@@ -103,6 +103,8 @@
 .offer-img {
     width: 602.9px;
     height: 400px;
+    border-style: dotted;
+    border-radius: 10px;
 }
 
 /* midnight party */
@@ -203,67 +205,71 @@
 
 /* awesome-portfolio */
 
-.awesome-portfolio{
+.awesome-portfolio {
     /* background-color: rgba(198, 199, 170, 0.432); */
-    
-width: 1320px;
-height: 1163px;
-margin: 100px 300px 200px 300px;
+
+    width: 1320px;
+    height: 1163px;
+    margin: 100px 300px 200px 300px;
 
 }
 
-.best-gift{
+.best-gift {
     color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.portfolio-heading{
+.portfolio-heading {
     color: rgb(7, 2, 17);
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0%;
-text-align: left;
-text-transform: capitalize;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
 }
 
-.portfolio-text{
+.portfolio-text {
     color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0%;
-text-align: left;
-width: 800px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 800px;
 }
-.pic-collection{
+
+.pic-collection {
     display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  
+    flex-wrap: wrap;
+    margin-top: 50px;
+
 }
-.pic1{
+
+.pic1 {
     box-shadow: 0px 6px 50px 0px #7814147b;
     border-style: dashed;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.pic2{
+
+.pic2 {
     box-shadow: 0px 6px 50px 0px #7814147b;
     border-style: dashed;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.pic3{
+
+.pic3 {
     box-shadow: 0px 6px 50px 0px #7814147b;
     border-style: dashed;
 
@@ -271,24 +277,95 @@ width: 800px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.pic4{
+
+.pic4 {
     box-shadow: 0px 6px 50px 0px #7814147b;
     border-style: dashed;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.pic5{
+
+.pic5 {
     box-shadow: 0px 6px 50px 0px #7814147b;
     border-style: dashed;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.pic6{
+
+.pic6 {
     box-shadow: 0px 6px 50px 0px #7814147b;
     border-style: dashed;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+/* news letter */
+
+#newsletter {
+    margin: 50px 0;
+}
+
+.newsletter-main {
+    /* background-image: url('../images/newsletter-bg.png'); */
+    border-radius: 16px;
+    margin-left: 300px;
+    margin-right: 200px;
+    background: #ff00000d;
+    padding: 60px;
+
+    /* Rectangle 11 */
+    /* position: absolute; */
+    width: 1320px;
+    height: 400px;
+
+}
+.newsletter-pic-text {
+    /* margin: 5px 212px 0px 400px ; */
+    text-align: center;
+
+    /* align-items: center; */
+}
+#newsletter form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 0px;
+}
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.newsletter-subscribe {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.newsletter-text {
+   
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+        text-align: center;
+}
+.btn-subscribe {
+    color: white;
+    background-color: #ff0000;
+    padding: 0px 20px 0px 20px;
+    border-radius: 50px;
+    border-radius: 0px 50px 50px 0px;
+    font-weight: 600;
+    background: rgb(255, 0, 0);
 }
