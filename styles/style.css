@@ -2,28 +2,26 @@
     margin: 0;
     padding: 0;
     font-family: "Merriweather", serif;
-
 }
 
 .header {
-    margin: 65px 140px;
+    margin: 65px 300px;
 }
 
 .container {
-    width: 75%;
+    width: 95%;
     max-width: 1440px;
 }
 
 .banner {
     background-image: url('../images/BannerImage.png');
     padding: 20px;
-    position: absolute;
+    /* position: absolute; */
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
     left: 300px;
     margin: 500 140;
-
 }
 
 .small-text {
@@ -36,7 +34,6 @@
     text-align: center;
     margin: 50px 100px 50px 100px;
     height: 40px;
-    /* width: 260px; */
 }
 
 .big-text {
@@ -49,10 +46,61 @@
 }
 
 .banner-text {
-    /* width: 630px 250px; */
     background-image: linear-gradient(to top, #fdfafa00, #090909);
     width: 1280px;
     height: 500px;
     padding-top: 90px;
-    /* padding-top: 300px; */
+}
+
+/* 65% offer  section */
+
+.sixtyfive-main {
+    align-content: center;
+    background-color: none;
+    border-color: rgb(7, 22, 22);
+    height: 600px;
+    width: 800px;
+    margin: 0px 400px 0px 550px;
+
+}
+
+.text-top {
+    text-align: center;
+}
+
+.offer-top {
+    font-family: "Inter", sans-serif;
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holiday {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.all-categories {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-img{
+    width: 602.9px;
+height: 400px;
 }
