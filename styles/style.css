@@ -9,7 +9,7 @@
 }
 
 .container {
-    width: 95%;
+    width: 75%;
     max-width: 1440px;
 }
 
@@ -100,7 +100,82 @@
     text-align: center;
 }
 
-.offer-img{
+.offer-img {
     width: 602.9px;
-height: 400px;
+    height: 400px;
 }
+
+/* midnight party */
+
+.bg-pic {
+   
+
+}
+
+.bg-pic {
+
+    background-image: url('../images/midnightparty.png');
+    /* background-image: linear-gradient(to top, #fdfafa00, #090909); */
+    padding: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    left: 300px;
+    margin-top: 120px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+
+
+   
+
+}
+
+.welcome-heading {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+
+    /* Welcome to midnight party */
+    /* position: absolute; */
+    width: 642px;
+    height: 176px;
+    left: 20.15%;
+    right: 31.21%;
+    top: 303.67%;
+    bottom: -233%;
+}
+
+.welcome-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+    width: 697px;
+    height: 60px;
+    left: 266px;
+    right: 357px;
+    top: 2022px;
+    bottom: -1482px;
+}
+
+.btn-join-now {
+    background-color: gold;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
