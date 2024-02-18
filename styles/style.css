@@ -202,6 +202,81 @@
     color: #ffffff;
 }
 
+/* coming-soon-main */
+
+.coming-soon-main {
+    width: 1320px;
+    margin: 200px 0px 200px 300px;
+
+    /* background-color: #00ff6a; */
+    display: flex;
+    align-items: center;
+}
+
+.best-offer {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+    text-align: left;
+}
+
+.coming-soon {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.describtion {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.round-pic {
+    border-radius: 50%;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ff0000;
+    border-width: 15px;
+    margin-left: 100px;
+}
+
+.right-area {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.twenty-twenty-four {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.describtion-right {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* margin: 20px; */
+}
+
+
 /* awesome-portfolio */
 
 .awesome-portfolio {
@@ -403,20 +478,18 @@ footer {
     width: 50%;
 }
 
-.line{
+.line {
     margin: 100px 0px;
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .social-links {
     align-items: center;
-    margin: 50px 400px 50px 500px ;
+    margin: 50px 400px 50px 500px;
 }
 
 .social-links a {
     margin-right: 10px;
-       
+
 
 }
-
-
